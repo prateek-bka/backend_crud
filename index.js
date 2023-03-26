@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// const port = process.env.PORT || 7580;
+const port = process.env.PORT || 7580;
 
 app.use("/users", userrouter);
 
